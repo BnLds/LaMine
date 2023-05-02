@@ -164,7 +164,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9c2b67b5c6da7a244b98aab9e37df0a8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 28170abdc52e394418e0adb6741dbd1b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -674,6 +674,9 @@ VisualEffect:
       - m_Value: 1
         m_Name: ConformSphereRadius
         m_Overridden: 1
+      - m_Value: 0
+        m_Name: ConformFieldCenter
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
@@ -722,4 +725,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioSpectrum: {fileID: 105794029}
-  _radiusAmplitude: 10000
+  _radiusAmplitude: 75
+  _fieldAmplitude: 100000
+  _spectrumNumber: 300
